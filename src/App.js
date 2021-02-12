@@ -3,11 +3,11 @@ import { useSelector } from 'react-redux';
 
 function App() {
   const counter = useSelector(state => state.counter);
-  const islogged = useSelector(state => state.isLogged);
+  //const islogged = useSelector(state => state.isLogged);
   return (
     <div className="App">
       <h1>Counter {counter}  </h1>
-      {isLogged ? <h3>Valuable Infromation I shouldn't see</h3> : " "}
+
     </div>
   );
 }
